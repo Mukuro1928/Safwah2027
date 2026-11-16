@@ -128,7 +128,7 @@ a{color:inherit}
 .title{text-align:center;color:var(--primary);font-size:clamp(28px,3vw,39px);line-height:1.18;margin:0 0 14px;font-family:Georgia,'Times New Roman',serif}
 .subtitle{text-align:center;color:var(--muted);margin:0 auto 34px;max-width:840px;line-height:1.95;font-size:15px}
 .grid3,.grid2,.grid4{display:grid;gap:24px}
-.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid2{grid-template-columns:repeat(1,minmax(0,1fr));position:center;padding-left: 100px;padding-right: 100px}.grid4{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid2{grid-template-columns:repeat(1,minmax(0,1fr));position:center;padding-left: 100px;padding-right: 100px}.grid4{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;position:center}
 .card,.table-wrap,.info,.panel{background:rgba(255,255,255,.94);border:1px solid var(--line);box-shadow:var(--shs)}
 .card{border-radius:24px;padding:clamp(22px,3vw,30px)}
 .card.bar::before{content:'';display:block;height:6px;border-radius:999px;margin-bottom:18px;background:linear-gradient(90deg,var(--primary),var(--red2))}
@@ -208,7 +208,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
         <div class="stat"><strong>Date</strong><span>Sunday, 22 November 2026</span></div>
         <div class="stat"><strong>Time</strong><span>7:30 AM – 6:00 PM</span></div>
         <div class="stat"><strong>Venue</strong><span>-KOE Auditorium A<br>-KOE Classrooms</span></div>
-        <div class="stat"><strong>Participants</strong><span>400 students &amp; youth</span></div>
+        <div class="stat"><strong>Participants</strong><span>200 students &amp; youth</span></div>
       </div>
     </div>
 
@@ -231,7 +231,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <div class="grid4">
 <div class="info"><strong>Keynote &amp; Panel Forums</strong><p>Practitioners, advocates and scholars with direct field experience.</p></div>
 <div class="info"><strong>Parallel Sessions</strong><p>Students and researchers present papers and posters in three rooms.</p></div>
-<div class="info"><strong>Exhibition</strong><p>15 booths from student bodies, NGOs and social enterprises.</p></div>
 <div class="info"><strong>E-Certificates</strong><p>Signed by the Deputy Rector of IIUM, Prof. Dato’ Dr. Mohamad Fauzan Noordin.</p></div>
 </div>
 <div class="quote">“You see the believers… resembling one body, so that, if any part of the body is not well then the whole body shares the sleeplessness and fever with it.”<small>Sahih Bukhari 6011</small></div>
@@ -253,9 +252,9 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <h2 class="title">Theme &amp; Tracks</h2>
 <p class="subtitle">Mobilizing the Ummah: Youth Leadership in Global Humanitarian Advocacy</p>
 <div class="grid3">
-<div class="card bar"><span class="role">Main Auditorium · Youth &amp; Advocacy</span><h3>Standing for Justice</h3><p>Youth responses to oppressed communities.</p></div>
+<div class="card bar"><span class="role">Audi A · Humanitarian &amp; Advocacy</span><h3>Standing for Justice</h3><p>Youth responses to oppressed communities.</p></div>
 <div class="card bar"><span class="role">Audi A · Community &amp; Service</span><h3>One Ummah</h3><p>Building global consciousness through local and international service.</p></div>
-<div class="card bar"><span class="role">Audi B · Global Affairs &amp; Migration</span><h3>Voices of the Displaced</h3><p>Tackling the refugee crisis, displacement and identity.</p></div>
+<div class="card bar"><span class="role">Audi A · Global Affairs &amp; Migration</span><h3>Voices of the Displaced</h3><p>Tackling the refugee crisis, displacement and identity.</p></div>
 </div>
 </section>
 
@@ -265,9 +264,9 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <p class="subtitle">Voices from the field and the academy.</p>
 <div class="grid4">
 <div class="card"><div class="av">RH</div><span class="role">Palestine</span><h3>Dr. Hafidzi Mohd Noor</h3><p>Honorary Advisor of MyCARE</p></div>
-<div class="card"><div class="av">DY</div><span class="role">Yemen</span><h3>Prof. Dr. Dawood Abdulmalek Yahya</h3><p>Kulliyyah of Education; Director, International Institute for Muslim Unity.</p></div>
 <div class="card"><div class="av">AS</div><span class="role">Syria</span><h3>Prof. Dr. Asem Shehadeh Saleh Ali</h3><p>Department of Arabic Language and Literature, IIUM.</p></div>
 <div class="card"><div class="av">NK</div><span class="role">Sudan</span><h3>Prof. Dr. Nassereldeen Ahmed Kabbashi</h3><p>Kulliyyah of Engineering, IIUM; environmental &amp; chemical engineering.</p></div>
+<div class="card"><div class="av">DY</div><span class="role">Keynote</span><h3>Prof. Dr. Dawood Abdulmalek Yahya</h3><p>Kulliyyah of Education; Director, International Institute for Muslim Unity.</p></div> 
 </div>
 </section>
 
@@ -278,18 +277,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <div class="tabs" role="tablist">
 <button type="button" role="tab" aria-selected="true" data-p="p1">Schedule</button>
 <button type="button" role="tab" aria-selected="false" data-p="p2">Parallel Sessions</button>
-<button type="button" role="tab" aria-selected="false" data-p="p3">Exhibition</button>
 </div>
 
 <div class="pane" id="p1"><div class="table-wrap"><table class="t">
 <tr><th>Time</th><th>Programme</th></tr>
 <tr><td>7:30 AM</td><td>Registration &amp; breakfast</td></tr>
-<tr><td>8:00 AM</td><td>Opening ceremony<small>Recitation, dua, welcoming remarks by the Deputy Rector, networking</small></td></tr>
-<tr><td>8:30 AM</td><td>Forum 1: The State of the Ummah: Understanding Crisis, Zulm, and Our Responsibility<small>Moderator: Ahmad Faezal · Dr. Fauziah (Palestine), Kamarul Zaman (Kashmir), Dr. Ruhanas (Rohingya)</small></td></tr>
-<tr><td>10:30 AM</td><td>Break</td></tr>
-<tr><td>11:00 AM</td><td>Forum 2: From Concern to Contribution: The Youth Blueprint for a Free Ummah<small>Moderator: Zafir Hakim Zaimeri · Prof. Dawood (Yemen), Prof. Asem (Syria), Prof. Nassereldeen (Sudan)</small></td></tr>
-<tr><td>12:30 PM</td><td>Lunch &amp; exhibition walk</td></tr>
-<tr><td>2:00 PM</td><td>Parallel sessions: oral presentations<small>Break at 3:30 PM · Poster presentations from 3:45 PM</small></td></tr>
+<tr><td>8:00 AM</td><td>Opening ceremony</td></tr>
+<tr><td>8:30 AM</td><td>Forum: From Concern to Contribution: The State of the Ummah<small>Moderator: Zafir Hakim Zaimeri Speakers: Prof. Dr. Hafidzi Mohd Noor (Palestine), Prof. Dr. Asem Shehadeh Saleh Ali (Syria), Prof. Dr. Nassereldeen Ahmed Kabbashi (Sudan)</small></td></tr>
+<tr><td>10:30 AM</td><td>Break</td></tr> 
+<tr><td>11:00 AM</td><td>Key Note session on the theme: Contribution As A Youth: A Call For Action<small>Speaker: Prof. Dawood Abdulmalek Yahya</small></td></tr>
+<tr><td>12:30 PM</td><td>Lunch &amp; refreshments</td></tr>
+<tr><td>2:00 PM</td><td>Parallel sessions: oral & poster presentations</td></tr>
 <tr><td>4:45 PM</td><td>Judging consolidation</td></tr>
 <tr class="hl"><td>5:00 PM</td><td>Closing ceremony: awards &amp; closing remarks<small>Programme concludes 6:00 PM</small></td></tr>
 </table></div></div>
@@ -297,22 +295,15 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <div class="pane" id="p2" hidden>
 <div class="table-wrap"><table class="t">
 <tr><th>Room</th><th>Track</th><th>Oral</th><th>Poster</th></tr>
-<tr><td>Main Auditorium</td><td>Youth &amp; Advocacy</td><td>5</td><td>5</td></tr>
-<tr><td>Audi A</td><td>Community &amp; Service</td><td>5</td><td>5</td></tr>
-<tr><td>Audi B</td><td>Global Affairs &amp; Migration</td><td>5</td><td>5</td></tr>
+<tr><td>KOE Auditorium A</td><td>Youth &amp; Advocacy</td><td>5</td><td>5</td></tr>
+<tr><td>KOE Classroom</td><td>Community &amp; Service</td><td>5</td><td>5</td></tr>
+<tr><td>KOE Classroom</td><td>Global Affairs &amp; Migration</td><td>5</td><td>5</td></tr>
 </table>
 <details open><summary>Presentation format</summary><ul><li>Oral: 15 minutes (10 presentation + 5 Q&amp;A), slides on room AV.</li><li>Poster: 15 minutes (5-minute pitch + 10 Q&amp;A) at poster boards along room walls.</li></ul></details>
 <details><summary>Judging criteria (100 points)</summary><ul><li>Content &amp; Methodology: 40</li><li>Delivery &amp; Visual Quality: 30</li><li>Q&amp;A &amp; Defense: 30</li><li>Two judges per room (academicians and subject experts).</li></ul></details>
-<details><summary>Awards &amp; publication</summary><ul><li>Best Speaker and Best Paper: three winners each, one per sub-theme. Best Poster: three winners.</li><li>Abstracts of all 30 presentations in the e-Abstract Booklet.</li><li>Full papers from oral presenters are peer reviewed for Proceedings with e-ISBN.</li></ul></details>
+<details><summary>Awards &amp; publication</summary><ul><li>Best Speaker and Best Paper: three winners each, one per sub-theme. Best Poster: three winners.</li><li>Abstracts of all 30 presentations in the e-Abstract Booklet.</li></ul></details>
 </div></div>
 
-<div class="pane" id="p3" hidden>
-<div class="grid2" position="center">
-<div class="card bar"><h3>Exhibition at the Coliseum</h3><p>Open 8:30 AM – 5:30 PM. A platform for student bodies, NGOs and social enterprises to showcase their work and connect with delegates.</p></div>
-<div class="card bar"><h3>15 Booths</h3><p>Each booth includes 1 draped table with 2 chairs and 1 poster display panel.</p></div>
-</div>
-<details><summary>Judging criteria (100 points)</summary><ul><li>Theme Alignment &amp; Message Impact: 30</li><li>Visual Design &amp; Creativity: 30</li><li>Engagement &amp; Interactive Elements: 20</li><li>Presenter Communication &amp; Hospitality: 20</li></ul></details>
-</div>
 </section>
 
 <section class="sec" id="participate">
@@ -321,12 +312,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <p class="subtitle">Open to all. Primary audience: tertiary students from IIUM and universities across Malaysia. Secondary: IIUM academic and administrative staff, and NGO members.</p>
 <div class="table-wrap"><table class="t">
 <tr><th>Category</th><th>Syabab</th><th>IIUM / Clubs &amp; Individuals</th><th>IIUM Staff</th><th>NGO / Non-IIUM</th></tr>
-<tr><td>Audience</td><td>20</td><td>40 (IIUM)</td><td>—</td><td>50 (Non-IIUM)</td></tr>
+<tr><td>Audience</td><td>20</td><td>20 (IIUM)</td><td>—</td><td>50 (Non-IIUM)</td></tr>
 <tr><td>Oral presenter</td><td>50</td><td>75</td><td>150</td><td>200 (NGO)</td></tr>
 <tr><td>Poster presenter</td><td>40</td><td>50</td><td>100</td><td>50 (NGO)</td></tr>
-<tr><td>Exhibitor</td><td>—</td><td>60 (Clubs)</td><td>—</td><td>70 (NGO)</td></tr>
 </table>
-<div class="note"><strong>Note:</strong> HLP members and KOE students attend free. Syabab members: add-on meal RM15. Hard-copy certificate RM10.</div>
+<div class="note"><strong>Note:</strong> HLP members and KOE students attend free. Early Bird registration is available at RM30 until 19 November 2026 for Non-IIUM. Hard-copy certificate RM10.</div>
 <div class="box"><strong style="display:block;color:var(--primary);margin-bottom:6px">Where do proceeds go?</strong>Net proceeds are channelled into the Huffaz Leadership Programme fund to sustain future initiatives and support activities benefiting HLP members and the wider community.</div>
 </div>
 </section>
@@ -355,18 +345,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <div class="card"><span class="role">Financial Controller &amp; Sponsorship</span><h3>Ahmad Mukhlis Zakariah</h3></div>
 <div class="card"><span class="role">Coordinator &amp; Logistics</span><h3>Aiman Hadi Jamali</h3>
 </div><div class="card"><span class="role">Preparation &amp; Technical</span><h3>Ahmad Muzanni Fitri</h3></div>
-<div class="card"><span class="role">Protocol &amp; PR</span><h3>Muhammad Adam Kharezmie · Faiz Ahmad Durrani</h3></div>
+<div class="card"><span class="role">Protocol &amp; PR</span><h3>Muhammad Adam Kharezmie</h3></div>
 <div class="card"><span class="role">Catering &amp; Special Task</span><h3>Muhammad Jamaluddin Hafizi</h3></div>
 <div class="card"><span class="role">Quality Assurance</span><h3>Muhammad Izzul Irfan Mohd Hazib</h3></div>
 <div class="card"><span class="role">Multimedia &amp; Publication</span><h3>Nur Muhammad Zulkifliy</h3></div>
-<div class="card"><span class="role">Exhibition &amp; Displays</span><h3>Muhammad Irshad Ismail</h3></div>
 </div>
 </section>
 
 <section class="cta">
 <div class="eyebrow">Join SAFWAH’26</div>
 <h2>Awareness that leads to action.</h2>
-<p>Join 400 young Muslims on 22 November 2026 at IIUM Gombak.</p>
+<p>Join 200 young Muslims on 22 November 2026 at IIUM Gombak.</p>
 <a class="btn" href="https://forms.gle/dRe8ME59XMtK8tyW9">Secure Your Place</a>
 </section>
 
@@ -380,7 +369,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 <div class="fg">
 <div><div class="fn">SAFWAH’26</div><div class="fs">Ummatic Conference · Sunday, 22 November 2026</div><div class="fh">Organised by the Huffaz Leadership Programme, IIUM, in collaboration with the Kulliyyah of Engineering.</div></div>
 <div><div class="fl">Conference</div><a href="#about">About</a><a href="#themes">Themes</a><a href="#speakers">Speakers</a><a href="#programme">Programme</a></div>
-<div><div class="fl">Venue</div><div class="fh">KOE Main Auditorium, several lecture halls and the Coliseum<br>International Islamic University Malaysia, Gombak</div></div>
+<div><div class="fl">Venue</div><div class="fh">KOE Auditorium A<br>KOE Classrooms<br>International Islamic University Malaysia, Gombak</div></div>
 </div>
 <div class="fb">© 2026 Huffaz Leadership Programme, IIUM · Programme details are tentative and subject to approval.</div>
 </footer>
